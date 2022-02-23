@@ -17,6 +17,6 @@
     $value->setValues(["values" => $array]);
     $conf = ["valueInputOption" => "USER_ENTERED"];
     $service->spreadsheets_values->append("1pb4tyfXlLxjIJcRLcJ5cyOmlgX9ZPjKID_3KA-p7jDQ", "Patients!A2:A", $value, $conf);
-
+    exit();
 
 ?>
